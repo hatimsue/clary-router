@@ -72,8 +72,8 @@ $ npm install clay-router
 
 	```javascript
 	clayRouter.group('/test',['myMiddleare@myMethod1'],[
-		{method:'get', path:'test1',handler:'myIndexController@myMethod1'},
-		{method:'get', path:'test2',handler:'myIndexController@myMethod2'}
+		{method:'get', path:'/test1',handler:'myIndexController@myMethod1'},
+		{method:'get', path:'/test2',handler:'myIndexController@myMethod2'}
 	])
 
 	```
