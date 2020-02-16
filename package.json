@@ -14,7 +14,7 @@
     "middlewares"
   ],
   "author": "hatimsue <hatimsue@gmail.com> (https://github.com/hatimsue/clay-router)",
-  "license": "ISC",
+  "license": "GNU GENERAL PUBLIC LICENSE",
   "dependencies": {
     "express": "^4.17.1"
   },
