@@ -1,0 +1,19 @@
+{
+  "name": "clay-router",
+  "version": "1.0.0",
+  "description": "express router",
+  "main": "clay-router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "group",
+    "router"
+  ],
+  "author": "hatimsue",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
