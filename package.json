@@ -9,11 +9,27 @@
   "keywords": [
     "express",
     "group",
-    "router"
+    "router",
+    "controllers",
+    "middlewares"
   ],
-  "author": "hatimsue",
+  "author": "hatimsue <hatimsue@gmail.com> (https://github.com/hatimsue/clay-router)",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatimsue/clay-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hatimsue/clay-router/issues"
+  },
+  "homepage": "https://github.com/hatimsue/clay-router#readme"
 }
+
+
+
+
+
+
