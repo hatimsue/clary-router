@@ -43,17 +43,17 @@ $ npm install clay-router
 
 	module.exports = myIndexController
 	```
-	middlewares/myMiddleare.js
+	middlewares/myMiddleware.js
 
 	```javascript
-	let myMiddleare = {
+	let myMiddleware = {
 		myMethod1:(req,res, next)=>{
 			req.test = 'abcd'
 			next()
 		}
 	}
 
-	module.exports = myMiddleare
+	module.exports = myMiddleware
 	```
 	You can create controllers files an middlewares files as many  you want.
 
@@ -71,7 +71,7 @@ $ npm install clay-router
 4. Group your routes and set the  controllers and middlewares.
 
 	```javascript
-	clayRouter.group('/test',['myMiddleare@myMethod1'],[
+	clayRouter.group('/test',['myMiddleware@myMethod1'],[
 		{method:'get', path:'/test1',handler:'myIndexController@myMethod1'},
 		{method:'get', path:'/test2',handler:'myIndexController@myMethod2'}
 	])
@@ -109,7 +109,7 @@ $ npm install clay-router
 		controllerPath:'controllers',
 		middlewarePath:'middlewares'
 	})
-	clayRouter.group('/test',['myMiddleare@myMethod1'],[
+	clayRouter.group('/test',['myMiddleware@myMethod1'],[
 		{method:'get', path:'/test1',handler:'myIndexController@myMethod1'},
 		{method:'get', path:'/test2',handler:'myIndexController@myMethod2'}
 	])
